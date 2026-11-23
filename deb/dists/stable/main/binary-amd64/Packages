@@ -1,0 +1,37 @@
+Package: certloom-agent
+Architecture: amd64
+Version: 0.1.0~rc.1
+Priority: optional
+Section: admin
+Maintainer: certloom maintainers <certloom@example.com>
+Installed-Size: 34445
+Filename: pool/main/certloom-agent/certloom-agent_0.1.0~rc.1_amd64.deb
+Size: 13515740
+MD5sum: 7f96baef63b248d5962533f062707928
+SHA1: 0fb2db2ece161d2caf5211e12e2b0e8de0ac7eac
+SHA256: 89bee5e898412ff87a9f5959c777ab67ee64d5aa1713fe832525388140692406
+SHA512: ddd1899b02b890777a06598b3872000fd02c175a28cb1613b1c9a7eeb07f3979dd229a40cda3226ec1cb3d9982c1572311b982925afaec11ee9cbc965908ed82
+Homepage: https://github.com/alexandrosnt/certloom
+Description: Certificate lifecycle agent for certloom.
+ Runs next to a web server, obtains certificates over ACME with locally
+ generated keys, deploys them with an atomic symlink switch, tests and
+ reloads the server and verifies what it serves.
+
+Package: certloomd
+Architecture: amd64
+Version: 0.1.0~rc.1
+Priority: optional
+Section: admin
+Maintainer: certloom maintainers <certloom@example.com>
+Installed-Size: 25738
+Filename: pool/main/certloomd/certloomd_0.1.0~rc.1_amd64.deb
+Size: 10184730
+MD5sum: f4d78a7607424a77776beccd6061d38b
+SHA1: 2925074142b52486b7fa6d936cc3d0994b785a7f
+SHA256: d847d09e2c6d005e3804e5ba47cb4f69c42c50c63753c83cb54ecc4d2e3b476d
+SHA512: 1db290e1b34e4bdac130c516b75bb1e7a378cfe446d9fcfe0cd36dd1d40810100b4d8558ab78c1c7f2ac09a2cbb2c917fb2b1fbdbde5e9b7ff5b52b6a55dc5d2
+Homepage: https://github.com/alexandrosnt/certloom
+Description: certloom control plane.
+ Certificate inventory, monitoring, renewal workflows and the API, web UI
+ and agent endpoint. Needs PostgreSQL 16 or later.
+

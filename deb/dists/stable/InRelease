@@ -1,0 +1,50 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64 arm64
+Codename: stable
+Components: main
+Date: Mon, 23 Nov 2026 12:32:21 +0000
+Label: certloom
+Origin: certloom
+Suite: stable
+MD5Sum:
+ 9850edc6af2c4c85a6802dc0ef911839              146 Release
+ da812465d243c9bdb03673db8cc54629             1618 main/binary-amd64/Packages
+ 554538cd3c1baa5de36ab465161af86a              866 main/binary-amd64/Packages.gz
+ 3632a8cfd7c59e7867dd203b0639e76b             1617 main/binary-arm64/Packages
+ e80b80b02053b513bcd7da901caab960              868 main/binary-arm64/Packages.gz
+SHA1:
+ ba0a40f2d482af529b0923c066c93da8b8e6e71b              146 Release
+ 2115f5652d19e755b281fcad512e81ef46d2d4ff             1618 main/binary-amd64/Packages
+ afe83aba1ec01d95e36b849d26ffbce3713041ec              866 main/binary-amd64/Packages.gz
+ bf6bb356a4f645c9e4efd5c5bd479696537ef449             1617 main/binary-arm64/Packages
+ 1623190db6624e4facc3b63f0cb21e24f6984eb2              868 main/binary-arm64/Packages.gz
+SHA256:
+ 53c474a5218e6a9fca2899f1e9aaef3ed286cf389b44d5cfa6cb12d93c9fcd31              146 Release
+ f6b7e8062e0ff5498bcb96fda629ccbd1bf580f7165a4e2e3bab9cc6838faa1b             1618 main/binary-amd64/Packages
+ 1a18d264d2afab85f7fdd5b7187ee7520cc672bcfea97db6711477c8d4482b5f              866 main/binary-amd64/Packages.gz
+ c80acdb7ba75a64a9958684934581db903b34ab78ccead0dfb9ddb606cd8326d             1617 main/binary-arm64/Packages
+ b786e1d24e57e1268469b220a0006a5dd672aedbcbeebe792e34f2916f0cdce4              868 main/binary-arm64/Packages.gz
+SHA512:
+ 0f283d528e392f8cadc5e40faf985a214aa2736407f4a2464337bdc8a7890afd224365c7850ccd7c4673c28b934e29468847d2546a4dd242279e8cdd20410016              146 Release
+ d840e8b43168d864587365dba941a0f6f602c6d94d15e63ff8e00c2ab8230e16b37dc6c97c1468d93f06d32e4cf03b4730d76f4f3171b4b3134261b5e637a743             1618 main/binary-amd64/Packages
+ b168dc134501adb03855f83507ba68c4bf2c57dbc1a6baed762a58d52b1768ac105cc953fcc15619b865c9ef471346366ab2ba44e635df3f3dd5e7ac4d831046              866 main/binary-amd64/Packages.gz
+ e5526229228193b8032cb0b3aaef410133a2e8a765e007ae7facd137833360e88b9350d0b3988898de22b814e362aa0df77405732a8485b216b55ba9e5ab6008             1617 main/binary-arm64/Packages
+ eef268a4018001b514d091c21d56421a20fc4a51734e61475a9241ac483e625e97043a2bef87e46987f75fd33709ddf214805eee617208f7a7d5d6586f76ff3a              868 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEExDqKyXDCdpcdSInClOexTdIjHPQFAmsEMlUACgkQlOexTdIj
+HPQ4eg//Txk3QDovt96XgJ3umwBysVIDk8MGDn2YnCxnJ1/S+P9+KtvmlJZFswvL
+vgWbp+1nvtecpMoVKjjTK0F84+m7IJiqSs9CS97MF1OvEIwb9bkwXy6vSz2Bcafr
+o/2iiFOFAB4uzX03JHp/C6x56lhgwAUrzizQp9aDPx3sg7iJNVR41Z23aS0P7mRq
+HPASR4CPBs99gMfttHD3JFPEb0BgXI/lrDYlmqMn3VE/1cka1S9Q14a6aKfe3Fow
+ZVpEpv8A/VPJhmSOxa5j6lCpswje5fPZ0hgpJSsJu6IEXNtb0nyWHvjrWrC+sLT4
+9uOdpkNuelsOnsW/yuuR0Sg5iJegCUP+sOlyq1GFdif8CgJA3WuDIOYP35uvNc8N
+pqxRFNxvY3vg1fR8DRwo64sIpvf1VCCGvv7WRVYFnQ0hGeC5oqi7nByGDSFjyaIY
++YwM0qpZIvRoRQWHiU0wjnQVtP1Iws7yRM+cqQWJmqP3iUV+pLEgXG57T5JCwKno
+sqyX/qZcoH2R7Iglr/GuxIM6/uEJmWs/lWih7HIM5II7dRkSVNlmRbz3Mgx2utW0
+V0QVPxUme3oSM1PtKbIxWaoZmGByOeqdwqZ8OVKii33REfH3pwrwHTIcSHJSFJRn
+xzXtBCAJUpoZM4uaNTifNztPGxWdFJrA/eyZyZRIzvwk5q+Dl4c=
+=k0IW
+-----END PGP SIGNATURE-----
