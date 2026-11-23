@@ -17,6 +17,25 @@ Description: Certificate lifecycle agent for certloom.
  generated keys, deploys them with an atomic symlink switch, tests and
  reloads the server and verifies what it serves.
 
+Package: certloom-agent
+Architecture: arm64
+Version: 0.1.0~rc.2
+Priority: optional
+Section: admin
+Maintainer: certloom maintainers <certloom@example.com>
+Installed-Size: 32081
+Filename: pool/main/certloom-agent/certloom-agent_0.1.0~rc.2_arm64.deb
+Size: 12222846
+MD5sum: 3c9c21fc9d5c9ebca257a394ca29cc89
+SHA1: a1040d5d830d377b32f473d762c12e7874932d17
+SHA256: 4dea2a77137d69e872039bce748bcf1cdae3bb75baaa2f7406df2fe5363077af
+SHA512: fc3cbd29a419547926438ae7904687b9834ded6eb8954b356a12e2f1507def277443fe3686d37c6e5109add8ec8d8db000312ba9ecec96df91b49fb610510281
+Homepage: https://github.com/alexandrosnt/certloom
+Description: Certificate lifecycle agent for certloom.
+ Runs next to a web server, obtains certificates over ACME with locally
+ generated keys, deploys them with an atomic symlink switch, tests and
+ reloads the server and verifies what it serves.
+
 Package: certloomd
 Architecture: arm64
 Version: 0.1.0~rc.1
@@ -30,6 +49,25 @@ MD5sum: 1923fd95df45b3a5fbf19fa8e23c2594
 SHA1: 1f548db94af955c818276792f9513a72848b0530
 SHA256: cec959e5258229312a0a8e2ec2561dae6c27aa91368f91905cda7d70d3ebff37
 SHA512: de04e44d9effb72e0a198f8c31107470c166e23462adffb886dd01c046c3df763f5cced82eee8132ed5ae348f012c3d7885431d18dd6ac0bb0af323bf194e9ec
+Homepage: https://github.com/alexandrosnt/certloom
+Description: certloom control plane.
+ Certificate inventory, monitoring, renewal workflows and the API, web UI
+ and agent endpoint. Needs PostgreSQL 16 or later.
+
+Package: certloomd
+Architecture: arm64
+Version: 0.1.0~rc.2
+Priority: optional
+Section: admin
+Maintainer: certloom maintainers <certloom@example.com>
+Installed-Size: 30606
+Recommends: postgresql
+Filename: pool/main/certloomd/certloomd_0.1.0~rc.2_arm64.deb
+Size: 11288274
+MD5sum: b4707bea9c910b0a05f646470852f18f
+SHA1: 116f935026d98f9a855e763f5293ed72b5ecec91
+SHA256: adb16058cc20f878dd68c07a371e11176c58626ed11e39f83c2c302d7a31deb3
+SHA512: 65695799f929f2b311d1239ddad8cc4a90a7b3c484cc89aab732d7c81f92561c3079612c255fbe0c00767f048fb81e12db2a83c61ac9f48194bd1921a57152d3
 Homepage: https://github.com/alexandrosnt/certloom
 Description: certloom control plane.
  Certificate inventory, monitoring, renewal workflows and the API, web UI
